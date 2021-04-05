@@ -57,3 +57,18 @@ a {
 .fs-12rem {
   font-size: 1.2rem;
 }
+
+footer {
+    ul {
+        list-style: none;
+        li {
+            display: inline;
+            border-right: 1px solid rgb(143, 143, 143);
+            margin-right: 3px;
+            padding-right: 9px;
+            a {
+                display: inline;
+            }
+        }
+    }
+}

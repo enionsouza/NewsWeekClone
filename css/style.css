@@ -24,4 +24,10 @@ a:hover { color: #f72210 !important; }
 .lh-15em { line-height: 1.5em; }
 
 .fs-12rem { font-size: 1.2rem; }
+
+footer ul { list-style: none; }
+
+footer ul li { display: inline; border-right: 1px solid #8f8f8f; margin-right: 3px; padding-right: 9px; }
+
+footer ul li a { display: inline; }
 /*# sourceMappingURL=style.css.map */
