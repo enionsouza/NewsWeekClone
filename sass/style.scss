@@ -1,28 +1,59 @@
-// @import '../node_modules/bootstrap/scss/bootstrap'; 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+// @import '../node_modules/bootstrap/scss/bootstrap';
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
+$nw-red: #f72210;
 
 .bg-yellow {
-    background-color: #FFE400;
+  background-color: #ffe400;
 }
 
 .bg-red {
-    background-color: #F72210;
+  background-color: $nw-red;
 }
 
 .primary-text {
-    font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
 }
 
 .secondary-text {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .small-text {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .icon-color {
-    color: #FDC8C3;
+  color: #fdc8c3;
 }
 
+.color-black {
+  color: black;
+}
+
+.color-white {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  &:hover {
+    color: $nw-red !important;
+  }
+}
+
+.hover-white:hover {
+  color: white !important;
+}
+
+.lh-15em {
+  line-height: 1.5em;
+}
+
+.fs-12rem {
+  font-size: 1.2rem;
+}
