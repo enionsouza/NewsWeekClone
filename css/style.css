@@ -1,33 +1,72 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-.bg-yellow { background-color: #ffe400; }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-.bg-red { background-color: #f72210; }
+.bg-yellow {
+  background-color: #ffe400;
+}
 
-.primary-text { font-family: "Roboto Condensed", sans-serif; font-weight: bold; }
+.bg-red {
+  background-color: #f72210;
+}
 
-.secondary-text { font-family: Arial, Helvetica, sans-serif; }
+.primary-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
 
-.small-text { font-size: 13px; }
+.secondary-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-.icon-color { color: #fdc8c3; }
+.small-text {
+  font-size: 13px;
+}
 
-.color-black { color: black; }
+.icon-color {
+  color: #fdc8c3;
+}
 
-.color-white { color: white; }
+.color-black {
+  color: black;
+}
 
-a { text-decoration: none; color: inherit; display: block; width: 100%; }
+.color-white {
+  color: white;
+}
 
-a:hover { color: #f72210 !important; }
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+}
 
-.hover-white:hover { color: white !important; }
+footer ul li a {
+  display: inline;
+}
 
-.lh-15em { line-height: 1.5em; }
+a:hover {
+  color: #f72210 !important;
+}
 
-.fs-12rem { font-size: 1.2rem; }
+.hover-white:hover {
+  color: white !important;
+}
 
-footer ul { list-style: none; }
+.lh-15em {
+  line-height: 1.5em;
+}
 
-footer ul li { display: inline; border-right: 1px solid #8f8f8f; margin-right: 3px; padding-right: 9px; }
+.fs-12rem {
+  font-size: 1.2rem;
+}
 
-footer ul li a { display: inline; }
-/*# sourceMappingURL=style.css.map */
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  border-right: 1px solid #8f8f8f;
+  margin-right: 3px;
+  padding-right: 9px;
+}
