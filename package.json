@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/enionsouza/NewsWeekClone#readme",
   "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
     "hint": "^6.1.3"
   }
 }
