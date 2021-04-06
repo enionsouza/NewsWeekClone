@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
 
 $nw-red: #f72210;
 $nw-yellow: #ffe400;
 
 .primary-text {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
 }
 
@@ -34,10 +34,46 @@ a {
   font-size: 0.9rem;
 }
 
+.trending {
+  li {
+    text-transform: uppercase;
+    font-size: 18px !important;
+
+    a {
+      color: #807f84;
+    }
+  }
+}
+
+.social-media {
+  li {
+    a {
+      font-size: 26px;
+      color: rgb(95, 95, 95) !important;
+
+      i {
+        padding: 4px;
+      }
+    }
+  }
+}
+
+.footer-links {
+  li {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    a {
+      color: #666;
+    }
+  }
+}
+
 .categories li {
   border-right: 1px solid #d9d9d9;
-  border-left: 1px solid #ffffff;
+  border-left: 1px solid #fff;
   padding: 0 1%;
+
   &:last-child {
     border-right: none;
     color: #757575 !important;
@@ -52,44 +88,12 @@ a {
   }
 }
 
-.trending {
-  li {
-    text-transform: uppercase;
-    font-size: 18px !important;
-    a {
-      color: #807f84;
-    }
-  }
-}
-
 .space {
   height: 150vh;
 }
 
-.social-media {
-  li {
-    a {
-      font-size: 26px;
-      color: rgb(95, 95, 95) !important;
-      i {
-        padding: 4px;
-      }
-    }
-  }
-}
-
 .copyright {
   font-size: 12px;
-}
-
-.footer-links {
-  li {
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    a {
-      color: #666666;
-    }
-  }
 }
 
 @media (min-width: 992px) {
