@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
-.primary-text { font-family: "Roboto Condensed", sans-serif; font-size: 1rem; }
+.primary-text { font-family: 'Roboto Condensed', sans-serif; font-size: 1rem; }
 
 .secondary-text { font-family: Arial, Helvetica, sans-serif; }
 
@@ -11,7 +11,7 @@
 
 a { text-decoration: none; color: black; }
 
-.header-icon { color: #FDC8C3; font-size: 0.9rem; }
+.header-icon { color: #fdc8c3; font-size: 0.9rem; }
 
 .categories li { border-right: 1px solid #d9d9d9; border-left: 1px solid #ffffff; padding: 0 1%; }
 
