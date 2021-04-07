@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
-.primary-text { font-family: 'Roboto Condensed', sans-serif; font-size: 1rem; }
+.primary-text { font-family: "Roboto Condensed", sans-serif; font-size: 1rem; }
 
 .secondary-text { font-family: Arial, Helvetica, sans-serif; }
 
@@ -13,7 +13,19 @@ a { text-decoration: none; color: black; }
 
 .header-icon { color: #fdc8c3; font-size: 0.9rem; }
 
-.categories li { border-right: 1px solid #d9d9d9; border-left: 1px solid #ffffff; padding: 0 1%; }
+.trending li { text-transform: uppercase; font-size: 18px !important; }
+
+.trending li a { color: #807f84; }
+
+.social-media li a { font-size: 26px; color: #5f5f5f !important; }
+
+.social-media li a i { padding: 4px; }
+
+.footer-links li { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
+
+.footer-links li a { color: #666; }
+
+.categories li { border-right: 1px solid #d9d9d9; border-left: 1px solid #fff; padding: 0 1%; }
 
 .categories li:last-child { border-right: none; color: #757575 !important; }
 
@@ -21,21 +33,17 @@ a { text-decoration: none; color: black; }
 
 .categories li:nth-last-child(2) { border-right: none; }
 
-.trending li { text-transform: uppercase; font-size: 18px !important; }
-
-.trending li a { color: #807f84; }
-
 .space { height: 150vh; }
-
-.social-media li a { font-size: 26px; color: #5f5f5f !important; }
-
-.social-media li a i { padding: 4px; }
 
 .copyright { font-size: 12px; }
 
-.footer-links li { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
+.more-stories-img-lg { width: 95px; height: 95px; float: left; -o-object-fit: cover; object-fit: cover; margin-right: 1em; }
 
-.footer-links li a { color: #666666; }
+.the-debate-img1-lg, .the-debate-img2-lg { width: 63px; height: 63px; -o-object-fit: contain; object-fit: contain; margin-left: 1em; margin-top: 1em; }
+
+.the-debate-img2-lg { margin-right: 3em; position: relative; right: 1em; }
+
+.vs-format { z-index: 2000; border-radius: 50%; }
 
 @media (min-width: 992px) { .nw-header-icon { -webkit-transform: scale(3); transform: scale(3); } }
 /*# sourceMappingURL=style.css.map */

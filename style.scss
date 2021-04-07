@@ -96,6 +96,34 @@ a {
   font-size: 12px;
 }
 
+.more-stories-img-lg {
+  width: 95px;
+  height: 95px;
+  float: left;
+  object-fit: cover;
+  margin-right: 1em;
+}
+
+.the-debate-img1-lg,
+.the-debate-img2-lg {
+  width: 63px;
+  height: 63px;
+  object-fit: contain;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.the-debate-img2-lg {
+  margin-right: 3em;
+  position: relative;
+  right: 1em;
+}
+
+.vs-format {
+  z-index: 2000;
+  border-radius: 50%;
+}
+
 @media (min-width: 992px) {
   .nw-header-icon {
     transform: scale(3);
