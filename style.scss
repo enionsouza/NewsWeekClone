@@ -20,10 +20,6 @@ $nw-yellow: #ffe400;
   background-color: $nw-yellow;
 }
 
-.hover-white:hover {
-  color: white !important;
-}
-
 a {
   text-decoration: none;
   color: black;
@@ -43,10 +39,10 @@ h5 a {
 .trending {
   li {
     text-transform: uppercase;
-    font-size: 18px !important;
-
+    
     a {
       color: #807f84;
+      font-size: 18px;
     }
   }
 }
@@ -55,9 +51,9 @@ h5 a {
   li {
     a {
       font-size: 26px;
-      color: rgb(95, 95, 95) !important;
-
+      
       i {
+        color: rgb(95, 95, 95);
         padding: 4px;
       }
     }
@@ -82,11 +78,11 @@ h5 a {
 
   &:last-child {
     border-right: none;
-    color: #757575 !important;
+    color: #757575;
   }
 
   &:last-child a {
-    color: #757575 !important;
+    color: #757575;
   }
 
   &:nth-last-child(2) {

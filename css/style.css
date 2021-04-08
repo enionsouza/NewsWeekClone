@@ -7,21 +7,19 @@
 
 .bg-yellow { background-color: #ffe400; }
 
-.hover-white:hover { color: white !important; }
-
 a { text-decoration: none; color: black; }
 
 .header-icon { color: #fdc8c3; font-size: 0.9rem; }
 
 h5 a { font-size: 1.5rem; }
 
-.trending li { text-transform: uppercase; font-size: 18px !important; }
+.trending li { text-transform: uppercase; }
 
-.trending li a { color: #807f84; }
+.trending li a { color: #807f84; font-size: 18px; }
 
-.social-media li a { font-size: 26px; color: #5f5f5f !important; }
+.social-media li a { font-size: 26px; }
 
-.social-media li a i { padding: 4px; }
+.social-media li a i { color: #5f5f5f; padding: 4px; }
 
 .footer-links li { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
 
@@ -29,9 +27,9 @@ h5 a { font-size: 1.5rem; }
 
 .categories li { border-right: 1px solid #d9d9d9; border-left: 1px solid #fff; padding: 0 1%; }
 
-.categories li:last-child { border-right: none; color: #757575 !important; }
+.categories li:last-child { border-right: none; color: #757575; }
 
-.categories li:last-child a { color: #757575 !important; }
+.categories li:last-child a { color: #757575; }
 
 .categories li:nth-last-child(2) { border-right: none; }
 
