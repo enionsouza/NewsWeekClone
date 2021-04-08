@@ -34,6 +34,12 @@ a {
   font-size: 0.9rem;
 }
 
+h5 a {
+  @extend .primary-text;
+
+  font-size: 1.5rem;
+}
+
 .trending {
   li {
     text-transform: uppercase;
@@ -106,17 +112,15 @@ a {
 }
 
 h2 {
-  @extend .primary-text;
-  color: #9a9a9a;
-}
+  @extend
+    .primary-text;
 
-h5 a {
-  @extend .primary-text;
-  font-size: 1.5rem;
+  color: #9a9a9a;
 }
 
 h6 {
   @extend .secondary-text;
+
   color: #9a9a9a;
   font-size: 1rem;
 }
