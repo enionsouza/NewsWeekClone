@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
-.primary-text, h2, h5 a { font-family: 'Roboto Condensed', sans-serif; font-size: 1rem; }
+.primary-text, h5 a, h2 { font-family: 'Roboto Condensed', sans-serif; font-size: 1rem; }
 
 .secondary-text, h6 { font-family: Arial, Helvetica, sans-serif; }
 
@@ -7,19 +7,21 @@
 
 .bg-yellow { background-color: #ffe400; }
 
-.hover-white:hover { color: white !important; }
+.hover-white:hover { color: white; }
 
 a { text-decoration: none; color: black; }
 
 .header-icon { color: #fdc8c3; font-size: 0.9rem; }
 
-.trending li { text-transform: uppercase; font-size: 18px !important; }
+h5 a { font-size: 1.5rem; }
 
-.trending li a { color: #807f84; }
+.trending li { text-transform: uppercase; }
 
-.social-media li a { font-size: 26px; color: #5f5f5f !important; }
+.trending li a { font-size: 18px; color: #807f84; }
 
-.social-media li a i { padding: 4px; }
+.social-media li a { font-size: 26px; }
+
+.social-media li a i { color: #5f5f5f; padding: 4px; }
 
 .footer-links li { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
 
@@ -27,9 +29,9 @@ a { text-decoration: none; color: black; }
 
 .categories li { border-right: 1px solid #d9d9d9; border-left: 1px solid #fff; padding: 0 1%; }
 
-.categories li:last-child { border-right: none; color: #757575 !important; }
+.categories li:last-child { border-right: none; color: #757575; }
 
-.categories li:last-child a { color: #757575 !important; }
+.categories li:last-child a { color: #757575; }
 
 .categories li:nth-last-child(2) { border-right: none; }
 
@@ -42,8 +44,6 @@ a { text-decoration: none; color: black; }
 .signup-bg { background-color: #f4f5f6; }
 
 h2 { color: #9a9a9a; }
-
-h5 a { font-size: 1.5rem; }
 
 h6 { color: #9a9a9a; font-size: 1rem; }
 
