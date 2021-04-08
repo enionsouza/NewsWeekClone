@@ -7,6 +7,8 @@
 
 .bg-yellow { background-color: #ffe400; }
 
+.text-red { color: #f72210; }
+
 .hover-white:hover { color: white; }
 
 a { text-decoration: none; color: black; }
