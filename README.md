@@ -4,7 +4,7 @@
 
 > Bootstrap - NewsWeek Clone
 
-![screenshot](assets/ScreenshotMilestone-3.png)
+![screenshot](screenshot.png)
 
 In this project we have cloned [this](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) NewsWeek web page by using RWD concepts and Bootstrap. We have implemented HTML5 then added the proper Bootstrap classes, making proper use of semantic tags in the HTML and Flexbox layout in the Bootstrap system.
 

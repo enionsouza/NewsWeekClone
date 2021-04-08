@@ -184,8 +184,8 @@ main {
 }
 
 .us-section-img {
-  width: 258px;
-  height: 258px;
+  width: 110px;
+  height: 110px;
 }
 
 .two-editions {
@@ -197,7 +197,7 @@ main {
 .subscribe-img {
   height: 200px;
   background-position: 50%;
-  background-image: url(../assets/culture-travel-1.jpg);
+  background-image: url("../milestone-3/starting5-homepage.png");
   background-size: cover;
 }
 
@@ -272,6 +272,12 @@ main {
 
   .subscribe-img {
     width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cool-heading {
+    font-size: 1rem;
   }
 }
 
