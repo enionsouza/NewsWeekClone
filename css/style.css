@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+body { color: #333; }
+
 .primary-text, h5 a, h2 { font-family: "Roboto Condensed", sans-serif; }
 
 .secondary-text, h6 { font-family: Arial, Helvetica, sans-serif; }
@@ -49,7 +51,27 @@ h2 { color: #9a9a9a; }
 
 h6 { color: #9a9a9a; font-size: 1rem; }
 
-main { display: -ms-grid; display: grid; grid-gap: 0 15px; grid-template-areas: "top-story" "featured-stories" "debate" "opinion" "si1" "more-stories" "latest-news" "my-turn" "culture-travel" "si2"; }
+.in-the-magazine-img { padding-top: 100%; background-size: 150%; background-position: top; }
+
+.in-the-magazine-img-2 { background-image: url(../assets/in-the-magazine-2.jpg); }
+
+.in-the-magazine-img-3 { background-image: url(../assets/in-the-magazine-3.jpg); }
+
+.in-the-magazine-img-4 { background-image: url(../assets/in-the-magazine-4.jpg); }
+
+.in-the-magazine-img-5 { background-image: url(../assets/in-the-magazine-5.jpg); }
+
+.in-the-magazine-img-6 { background-image: url(../assets/in-the-magazine-6.jpg); background-size: 170%; }
+
+.in-the-magazine-img-7 { background-image: url(../assets/in-the-magazine-7.jpg); }
+
+.in-the-magazine-img-8 { background-image: url(../assets/in-the-magazine-8.jpg); background-position: center 250%; }
+
+.cursor-text { cursor: text !important; }
+
+.hover-underline-red:hover { color: black; -webkit-text-decoration: underline red; text-decoration: underline red; }
+
+main { display: -ms-grid; display: grid; grid-gap: 0 15px; grid-template-areas: "top-story" "featured-stories" "debate" "opinion" "si1" "more-stories" "latest-news" "my-turn" "culture-travel" "si2"; }
 
 .top-story { -ms-grid-row: 1; -ms-grid-column: 1; grid-area: top-story; }
 

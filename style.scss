@@ -3,6 +3,10 @@
 $nw-red: #f72210;
 $nw-yellow: #ffe400;
 
+body {
+  color: #333;
+}
+
 .primary-text {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -125,6 +129,51 @@ h6 {
 
   color: #9a9a9a;
   font-size: 1rem;
+}
+
+.in-the-magazine-img {
+  padding-top: 100%;
+  background-size: 150%;
+  background-position: top;
+}
+
+.in-the-magazine-img-2 {
+  background-image: url(../assets/in-the-magazine-2.jpg);
+}
+
+.in-the-magazine-img-3 {
+  background-image: url(../assets/in-the-magazine-3.jpg);
+}
+
+.in-the-magazine-img-4 {
+  background-image: url(../assets/in-the-magazine-4.jpg);
+}
+
+.in-the-magazine-img-5 {
+  background-image: url(../assets/in-the-magazine-5.jpg);
+}
+
+.in-the-magazine-img-6 {
+  background-image: url(../assets/in-the-magazine-6.jpg);
+  background-size: 170%;
+}
+
+.in-the-magazine-img-7 {
+  background-image: url(../assets/in-the-magazine-7.jpg);
+}
+
+.in-the-magazine-img-8 {
+  background-image: url(../assets/in-the-magazine-8.jpg);
+  background-position: center 250%;
+}
+
+.cursor-text {
+  cursor: text !important;
+}
+
+.hover-underline-red:hover {
+  color: black;
+  text-decoration: underline red;
 }
 
 main {
