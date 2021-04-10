@@ -43,6 +43,42 @@ h5 a {
   font-size: 1.5rem;
 }
 
+// animations exercise start
+
+@keyframes rotate-logo {
+  from {
+    color: white;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-logo {
+  animation: rotate-logo 1.5s ease-in-out 0s 1;
+}
+
+.change-color a {
+  transition: 0.5s;
+
+  &:hover {
+    color: red;
+    font-size: 1.25em;
+  }
+}
+
+.hover-enlarge,
+img {
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.25);
+  }
+}
+
+// animations exercise end
+
 .trending {
   li {
     text-transform: uppercase;

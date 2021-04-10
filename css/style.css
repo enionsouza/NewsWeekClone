@@ -17,6 +17,22 @@ a { text-decoration: none; color: black; }
 
 h5 a { font-size: 1.5rem; }
 
+@-webkit-keyframes rotate-logo { from { color: white; }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+
+@keyframes rotate-logo { from { color: white; }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+
+.spin-logo { -webkit-animation: rotate-logo 1.5s ease-in-out 0s 1; animation: rotate-logo 1.5s ease-in-out 0s 1; }
+
+.change-color a { -webkit-transition: 0.5s; transition: 0.5s; }
+
+.change-color a:hover { color: red; font-size: 1.25em; }
+
+.hover-enlarge, img { -webkit-transition: 0.5s; transition: 0.5s; }
+
+.hover-enlarge:hover, img:hover { -webkit-transform: scale(1.25); transform: scale(1.25); }
+
 .trending li { text-transform: uppercase; }
 
 .trending li a { font-size: 18px; color: #807f84; }
@@ -49,7 +65,7 @@ h2 { color: #9a9a9a; }
 
 h6 { color: #9a9a9a; font-size: 1rem; }
 
-main { display: -ms-grid; display: grid; grid-gap: 0 15px; grid-template-areas: "top-story" "featured-stories" "debate" "opinion" "si1" "more-stories" "latest-news" "my-turn" "culture-travel" "si2"; }
+main { display: -ms-grid; display: grid; grid-gap: 0 15px; grid-template-areas: "top-story" "featured-stories" "debate" "opinion" "si1" "more-stories" "latest-news" "my-turn" "culture-travel" "si2"; }
 
 .top-story { -ms-grid-row: 1; -ms-grid-column: 1; grid-area: top-story; }
 
