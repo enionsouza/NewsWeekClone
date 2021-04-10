@@ -1,23 +1,9 @@
 {
-  "name": "NewsWeekClone",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/enionsouza/NewsWeekClone.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/enionsouza/NewsWeekClone/issues"
-  },
-  "homepage": "https://github.com/enionsouza/NewsWeekClone#readme",
-  "dependencies": {
-    "hint": "^6.1.3"
+  "devDependencies": {
+    "hint": "6.0.x",
+    "stylelint": "13.3.x",
+    "stylelint-config-standard": "20.0.x",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "3.17.x"
   }
 }

@@ -10,10 +10,2828 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-
+    <script
+      src="https://kit.fontawesome.com/080dba293e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>News Week Clone</title>
   </head>
+
   <body>
-    <h1 class="invisible">Test</h1>
+    <header class="mb-1">
+      <nav class="bg-red container-fluid container-lg">
+        <div
+          class="d-flex flex-row justify-content-between py-2 py-lg-4 text-white primary-text"
+        >
+          <p class="d-none d-lg-block align-self-end m-0 p-0">
+            Wed, Jan 20, 2021
+          </p>
+
+          <a class="spin-logo" href="#">
+            <svg
+              version="1.1"
+              width="132"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 396 60"
+              xml:space="preserve"
+              fill="#fff"
+              class="nw-header-icon"
+            >
+              <g>
+                <path
+                  class="st0"
+                  d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                ></path>
+              </g>
+            </svg>
+          </a>
+
+          <div class="d-flex align-items-center">
+            <a class="fs-6 fw-bold hover-white text-white" href="#">
+              <p class="d-none d-lg-block m-0 p-0">LOGIN</p>
+              <i class="fas fa-user d-lg-none header-icon mx-1"></i>
+            </a>
+            <button
+              type="button"
+              class="hover-enlarge btn bg-yellow btn-sm rounded-pill fw-bold primary-text text-nowrap py-0 subscribe mx-1"
+            >
+              SUBSCRIBE <i class="fas fa-chevron-right small"></i>
+            </button>
+            <i
+              class="fas fa-bars icon-color d-block d-lg-none header-icon mx-1"
+            ></i>
+          </div>
+        </div>
+      </nav>
+      <nav class="change-color container-lg d-none d-lg-block border-bottom">
+        <ul class="list-inline categories primary-text my-2 py-0">
+          <li class="list-inline-item m-0"><a href="#">U.S.</a></li>
+          <li class="list-inline-item m-0"><a href="#">World</a></li>
+          <li class="list-inline-item m-0"><a href="#">Business</a></li>
+          <li class="list-inline-item m-0"><a href="#">Tech & Science</a></li>
+          <li class="list-inline-item m-0"><a href="#">Culture</a></li>
+          <li class="list-inline-item m-0"><a href="#">Newsgeek</a></li>
+          <li class="list-inline-item m-0"><a href="#">Sports</a></li>
+          <li class="list-inline-item m-0"><a href="#">Health</a></li>
+          <li class="list-inline-item m-0"><a href="#">The Debate</a></li>
+          <li class="list-inline-item m-0"><a href="#">Experts</a></li>
+          <li class="list-inline-item m-0"><a href="#">Vantage</a></li>
+          <li class="list-inline-item m-0">
+            <a href="#" class="secondary-text"
+              >Search <i class="fas fa-search"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="change-color container-lg d-none d-lg-block border-bottom">
+        <ul class="list-inline primary-text my-2 py-0 trending">
+          <li class="list-inline-item">Trending</li>
+          <li class="list-inline-item"><a href="">Joe Biden</a></li>
+          <li class="list-inline-item"><a href="">Donald Trump</a></li>
+          <li class="list-inline-item"><a href="">Inauguration</a></li>
+          <li class="list-inline-item"><a href="">Coronavirus</a></li>
+          <li class="list-inline-item"><a href="">Stimulus Package</a></li>
+          <li class="list-inline-item"><a href="">Vaccine</a></li>
+          <li class="list-inline-item"><a href="">Capitol Riots</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main Content -->
+    <main class="container mt-3">
+      <!-- FEATURED STORIES -->
+      <section class="featured-stories">
+        <h2>FEATURED STORIES</h2>
+        <article class="card border-0 mb-3">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/featured-story-1.jpg"
+                class="card-img-top"
+                alt="#"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-danger fw-bold p-2 mb-0">
+                  U.S.
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body p-0 mt-2">
+            <h5 class="card-title">
+              <a href="#">
+                The 73 People Pardoned by Donald Trump on His Last Day As
+                President
+              </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Notable people pardoned by Trump today include former White House
+              chief strategist Steve Bannon and rapper Lil Wayne.
+            </h6>
+          </div>
+        </article>
+        <!-- FEATURED STORIES -->
+        <!-- FEATURED STORIES -->
+        <article class="card border-0 mb-3">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/featured-story-2.jpg"
+                class="card-img-top"
+                alt="#"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-danger fw-bold p-2 mb-0">
+                  POLITICS
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body p-0 mt-2">
+            <h5 class="card-title">
+              <a href="#">
+                Donald Trump Can Issue Secret Pardons, but They're Risky
+              </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Trump chose not to issue pardons for himself of his personal
+              attorney, former New York Mayor Rudy Giuliani.
+            </h6>
+          </div>
+        </article>
+        <!-- FEATURED STORIES -->
+        <!-- FEATURED STORIES -->
+        <article class="card border-0 mb-3">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/featured-story-3.png"
+                class="card-img-top"
+                alt="#"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-danger fw-bold p-2 mb-0">
+                  EXPERTS
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body p-0 mt-2">
+            <h5 class="card-title">
+              <a href="#">
+                Newsweek Announces Launch of the Newsweek Expert Forum
+              </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Newsweek Expert Forum creates cohort of thought leaders,
+              pioneering thinkers to share insights, expertise from range of
+              professions, industries.
+            </h6>
+          </div>
+        </article>
+        <!-- FEATURED STORIES -->
+        <!-- FEATURED STORIES -->
+        <article class="card border-0 mb-3">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/featured-story-4.jpg"
+                class="card-img-top"
+                alt="#"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-danger fw-bold p-2 mb-0">
+                  POLITICS
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body p-0 mt-2">
+            <h5 class="card-title">
+              <a href="#"> Can Joe Biden Rescind Donald Trump's Pardons? </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              The president did not issue pardons for himself, his children or
+              for the former New York Mayor Rudy Giuliani.
+            </h6>
+          </div>
+        </article>
+        <!-- FEATURED STORIES -->
+        <!-- FEATURED STORIES -->
+        <article class="card border-0 mb-3">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/featured-story-5.jpg"
+                class="card-img-top"
+                alt="#"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-danger fw-bold p-2 mb-0">
+                  POLITICS
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body p-0 mt-2">
+            <h5 class="card-title">
+              <a href="#">
+                Joe Biden Immigration Orders Upend Donald Trump's Legacy
+              </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              The Biden Administration will issue an order stopping construction
+              of the border wall on its first day.
+            </h6>
+          </div>
+        </article>
+      </section>
+      <!-- FEATURED STORIES -->
+      <!-- TOP STORY -->
+      <section class="top-story">
+        <h2>TOP STORY</h2>
+        <div class="card border-0">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/top-story.jpg"
+                class="card-img-top"
+                alt="Joe Biden's First Executive Actions Undo Many of Donald Trump's"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-danger fw-bold p-2 mb-0">
+                  POLITICS
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body px-0">
+            <h5 class="card-title">
+              <a href="#">
+                Joe Biden's First Executive Actions Undo Many of Donald Trump's
+              </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Actions related to the COVID-19 crisis, climate change and racial
+              equality are to be among the first taken as he begins his tenure.
+            </h6>
+          </div>
+        </div>
+      </section>
+      <!-- THE DEBATE -->
+      <section class="the-debate">
+        <h2>THE DEBATE</h2>
+        <hr class="border-bottom border-4 border-secondary" />
+        <div>
+          <article
+            class="card mb-0 pb-3 position-relative border-0 border-bottom"
+          >
+            <div class="row g-0">
+              <div class="col-3 d-flex">
+                <a class="text-center" href="#">
+                  <img
+                    class="img-fluid"
+                    src="./assets/the-debate-1.png"
+                    alt="Media Have Every Right to Cancel Trump"
+                    width="63"
+                  />
+                </a>
+              </div>
+              <div class="col-9">
+                <div class="card-body pt-0 px-0">
+                  <h5 class="card-title">
+                    <a href="#" class="small">
+                      Media Have Every Right to Cancel Trump
+                    </a>
+                  </h5>
+                  <p class="card-text">BY <strong>FROMA HARROP</strong></p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="position-absolute top-100 start-50 translate-middle vs-format"
+            >
+              <h5
+                class="card-title bg-dark text-light vs-format small fw-bold p-2 mb-0"
+              >
+                VS
+              </h5>
+            </div>
+          </article>
+
+          <article class="card mb-0 border-0 border-top">
+            <div class="row g-0">
+              <div class="col-9">
+                <div class="card-body pb-0 px-0">
+                  <h5 class="card-title">
+                    <a href="#" class="small">
+                      After Parler Ban, Rein in Big Tech Now or Cease Being Free
+                      Citizens
+                    </a>
+                  </h5>
+                  <p class="card-text">BY <strong>RACHEL BOVARD</strong></p>
+                </div>
+              </div>
+              <div
+                class="col-3 d-flex justify-content-end align-items-md-start"
+              >
+                <a href="#">
+                  <img
+                    class="img-fluid mt-5 mt-md-3"
+                    width="63"
+                    src="./assets/the-debate-2.png"
+                    alt="After Parler Ban, Rein in Big Tech Now or Cease Being Free Citizens"
+                  />
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <hr class="border-bottom border-4 border-secondary" />
+      </section>
+      <!-- THE DEBATE -->
+      <!-- OPINION -->
+      <section class="opinion">
+        <h2>OPINION</h2>
+        <article class="card mb-0 pb-3 border-0 border-bottom mt-3">
+          <div class="row">
+            <div class="col-3 pt-0">
+              <a href="#">
+                <img
+                  width="63"
+                  src="./assets/opinion-1.png"
+                  alt="U.S. Supply Chain: Stop Driving Blind"
+                />
+              </a>
+            </div>
+            <div class="col-9 p-0 px-1">
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="h6">
+                    U.S. Supply Chain: Stop Driving Blind
+                  </a>
+                </h5>
+                <p class="card-text small">
+                  By Frank Cilluffo and Stewart Baker
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card mb-0 pb-3 border-0 border-bottom mt-3">
+          <div class="row">
+            <div class="col-3 pt-0">
+              <a href="#">
+                <img
+                  width="63"
+                  src="./assets/opinion-2.png"
+                  alt="U.S. Supply Chain: Stop Driving Blind"
+                />
+              </a>
+            </div>
+            <div class="col-9 p-0 px-1">
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="h6">
+                    After Violence at the Capitol, Congress Must Ensure Election
+                    Integrity
+                  </a>
+                </h5>
+                <p class="card-text small">By Rick Scott</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card mb-0 pb-3 border-0 border-bottom mt-3">
+          <div class="row">
+            <div class="col-3 pt-0">
+              <a href="#">
+                <img
+                  width="63"
+                  src="./assets/opinion-2.png"
+                  alt="U.S. Supply Chain: Stop Driving Blind"
+                />
+              </a>
+            </div>
+            <div class="col-9 p-0 px-1">
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="h6">
+                    Despite January 6, Trump Leaves a Legacy of Trust with
+                    Voters
+                  </a>
+                </h5>
+                <p class="card-text small">BY NIGEL FARAGE</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card mb-0 pb-3 border-0 border-bottom mt-3">
+          <div class="row">
+            <div class="col-3 pt-0">
+              <a href="#">
+                <img
+                  width="63"
+                  src="./assets/opinion-2.png"
+                  alt="U.S. Supply Chain: Stop Driving Blind"
+                />
+              </a>
+            </div>
+            <div class="col-9 p-0 px-1">
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="h6"
+                    >Narcissism and Nihilism on Capitol Hill</a
+                  >
+                </h5>
+                <p class="card-text small">BY PHILIP JEFFERY</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card mb-0 pb-3 border-0 border-bottom mt-3">
+          <div class="row">
+            <div class="col-3 pt-0">
+              <a href="#">
+                <img
+                  width="63"
+                  src="./assets/opinion-2.png"
+                  alt="U.S. Supply Chain: Stop Driving Blind"
+                />
+              </a>
+            </div>
+            <div class="col-9 p-0 px-1">
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="h6">Exit Trump, Tragic American Hero</a>
+                </h5>
+                <p class="card-text small">BY BRUCE ABRAMSON</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card mb-0 pb-3 border-0 border-bottom mt-3">
+          <div class="row">
+            <div class="col-3 pt-0">
+              <a href="#">
+                <img
+                  width="63"
+                  src="./assets/opinion-2.png"
+                  alt="U.S. Supply Chain: Stop Driving Blind"
+                />
+              </a>
+            </div>
+            <div class="col-9 p-0 px-1">
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="h6"
+                    >As the 46th President Takes Office, Let's Discuss the
+                    47th</a
+                  >
+                </h5>
+                <p class="card-text small">BY MARK DAVIS</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card mb-0 pb-3 border-0 border-bottom mt-3">
+          <div class="row">
+            <div class="col-3 pt-0">
+              <a href="#">
+                <img
+                  width="63"
+                  src="./assets/opinion-2.png"
+                  alt="U.S. Supply Chain: Stop Driving Blind"
+                />
+              </a>
+            </div>
+            <div class="col-9 p-0 px-1">
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="h6"
+                    >Is the European Union Combating or Whitewashing
+                    Anti-Semitism?</a
+                  >
+                </h5>
+                <p class="card-text small">
+                  BY ABRAHAM COOPER AND MANFRED GERSTENFELD
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- OPINION -->
+      <!-- Insight Rankings -->
+      <section class="sponsored-insights-rankings">
+        <article class="card border-0 mt-4">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/sponsored-insight-col-1-01.jpg"
+                class="card-img-top"
+                alt="Hungary: From Manufacturing Hub to Innovation and R&amp;D; Center"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-primary fw-bold p-2 mb-0">
+                  SPONSORED INSIGHT
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body border">
+            <h5 class="card-title">
+              <a href="#"> Hokkaido: Japan’s Northern Frontier </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Featuring a unique history, uninhibited wildness and at times
+              otherworldly natural spectacles, Hokkaido offers an experience
+              that is completely different from the rest of Japan.
+            </h6>
+          </div>
+        </article>
+        <article class="card border-0 mt-4">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/sponsored-insight-col-1-02.jpg"
+                class="card-img-top"
+                alt="Hungary: From Manufacturing Hub to Innovation and R&amp;D; Center"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-primary fw-bold p-2 mb-0">
+                  SPONSORED INSIGHT
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body border">
+            <h5 class="card-title">
+              <a href="#"> What Makes International Schools so Special? </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              One of the single most important decisions you make for your child
+              is whom to entrust with their education. See why so many parents
+              are turning to International Schools.
+            </h6>
+          </div>
+        </article>
+        <article class="card border-0 mt-4">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/sponsored-insight-col-1-03.png"
+                class="card-img-top"
+                alt="Hungary: From Manufacturing Hub to Innovation and R&amp;D; Center"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-primary fw-bold p-2 mb-0">
+                  SPONSORED INSIGHT
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body border">
+            <h5 class="card-title">
+              <a href="#"> America's Most Responsible Companies 2021 </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              We partnered with Statista to rank the country's Most Responsible
+              Companies. They share the values that we all prioritize, and
+              that's worth recognizing in 2021
+            </h6>
+          </div>
+        </article>
+        <article class="card border-0 mt-4">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/sponsored-insight-col-1-04.jpg"
+                class="card-img-top"
+                alt="Hungary: From Manufacturing Hub to Innovation and R&amp;D; Center"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-primary fw-bold p-2 mb-0">
+                  SPONSORED INSIGHT
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body border">
+            <h5 class="card-title">
+              <a href="#">
+                This Startup Is Making Long Distance Real Estate Investing
+                Possible for Millennials
+              </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              75% of Roofstock users are first-time real estate investors, and
+              more than half are under 35.
+            </h6>
+          </div>
+        </article>
+      </section>
+      <!-- Insight Rankings -->
+      <!-- MORE STORIES -->
+      <section class="more-stories">
+        <h2>MORE STORIES</h2>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-1.jpg"
+                alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                U.S.-Mexico Border
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            The incoming president has not said what he plans to do with the
+            tens of thousands of asylum-seekers living in limbo in crowded
+            shelters and makeshift camps along the border.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-02.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Evangelicals, Police, Who Disliked Trump Immigration Policy May
+                Back Reform
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Religious conservatives and law-enforcement officers who were
+            uncomfortable with family separations may be open to immigration
+            reform.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-03.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Donald Trump Pardons Israeli Spy Handler Who Paid for American
+                Secrets
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            The president's flurry of pardons include former Israeli air force
+            colonel Aviem Sella, who recruited the infamous spy Jonathan
+            Pollard.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-04.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Joe Biden's Schedule for His First Day As President
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Joe Biden will be sworn in as the 46th president of the United
+            States at noon on Wednesday. Kamala Harris will become the 49th vice
+            president.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-05.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                U.S. Cut Russia Consulate Phones Before Trump's Last Day, Moscow
+                Claims
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            The Russian embassy in Washington, DC has sent a diplomatic note to
+            the State Department after the phones at its New York consulate
+            stopped working.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-06.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-07.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-08.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-09.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-10.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-11.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/more-stories-12.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+      </section>
+      <!-- MORE STORIES -->
+      <!-- Latest News -->
+      <section class="latest-news">
+        <h2>Latest News</h2>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/latest-news-1.jpg"
+                alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                U.S.-Mexico Border
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            The incoming president has not said what he plans to do with the
+            tens of thousands of asylum-seekers living in limbo in crowded
+            shelters and makeshift camps along the border.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/latest-news-2.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Evangelicals, Police, Who Disliked Trump Immigration Policy May
+                Back Reform
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Religious conservatives and law-enforcement officers who were
+            uncomfortable with family separations may be open to immigration
+            reform.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/latest-news-3.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Donald Trump Pardons Israeli Spy Handler Who Paid for American
+                Secrets
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            The president's flurry of pardons include former Israeli air force
+            colonel Aviem Sella, who recruited the infamous spy Jonathan
+            Pollard.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/latest-news-4.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Joe Biden's Schedule for His First Day As President
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Joe Biden will be sworn in as the 46th president of the United
+            States at noon on Wednesday. Kamala Harris will become the 49th vice
+            president.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/latest-news-5.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                U.S. Cut Russia Consulate Phones Before Trump's Last Day, Moscow
+                Claims
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            The Russian embassy in Washington, DC has sent a diplomatic note to
+            the State Department after the phones at its New York consulate
+            stopped working.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/latest-news-6.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/latest-news-7.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/latest-news-8.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+        <article class="border-0 border-top py-3">
+          <div class="d-inline-flex">
+            <a href="#">
+              <img
+                width="95"
+                height="95"
+                src="./assets/latest-news-9.jpg"
+                alt="#"
+              />
+            </a>
+            <h5 class="d-inline ms-2">
+              <a href="#" class="word small">
+                Mississippi Bill Classifying Abortions as Murder Introduced by
+                GOP Lawmaker
+              </a>
+            </h5>
+          </div>
+          <p class="d-inline small">
+            Rep. Dan Eubanks also introduced a bill to ban employers from
+            mandating COVID-19 vaccines for their staff.
+          </p>
+        </article>
+      </section>
+      <!-- Latest News -->
+      <!-- My Turn -->
+      <section class="my-turn">
+        <h2>MY TURN</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card border-0">
+              <a href="#">
+                <div>
+                  <img
+                    src="./assets/my-turn-1.jpg"
+                    class="card-img-top"
+                    alt="'I Married My Best Friend to Avoid Inheritance Tax'"
+                  />
+                </div>
+              </a>
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="h6">
+                    'I Married My Best Friend to Avoid Inheritance Tax'
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0">
+              <a href="#">
+                <div>
+                  <img
+                    src="./assets/my-turn-2.jpg"
+                    class="card-img-top"
+                    alt="'I've Rescued Hundreds of Special Needs Dogs'"
+                  />
+                </div>
+              </a>
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="h6">
+                    'I've Rescued Hundreds of Special Needs Dogs'
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0">
+              <a href="#">
+                <div>
+                  <img
+                    src="./assets/my-turn-3.jpg"
+                    class="card-img-top"
+                    alt="Why I Accepted Trump's Medal Of Arts"
+                  />
+                </div>
+              </a>
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="h6">
+                    Why I Accepted Trump's Medal Of Arts
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- My Turn -->
+      <!-- Culture & Travel -->
+      <section class="culture-travel">
+        <h2>CULTURE & TRAVEL</h2>
+        <div class="row">
+          <div class="card border-0 col-md-4">
+            <a href="#">
+              <div class="position-relative">
+                <img
+                  src="./assets/featured-story-1.jpg"
+                  class="card-img-top"
+                  alt="America's Most Responsible Companies 2021"
+                />
+                <div class="position-absolute bottom-0 start-0">
+                  <h5
+                    class="card-title bg-info small text-dark fw-bold p-1 mb-0"
+                  >
+                    TRAVEL
+                  </h5>
+                </div>
+              </div>
+            </a>
+            <div class="card-body p-0">
+              <h5 class="card-title">
+                <a href="#" class="h6">
+                  America's Most Responsible Companies 2021
+                </a>
+              </h5>
+            </div>
+          </div>
+
+          <div class="card border-0 col-md-4">
+            <a href="#">
+              <div class="position-relative">
+                <img
+                  src="./assets/featured-story-1.jpg"
+                  class="card-img-top"
+                  alt="Where We Are Dreaming of Traveling in 2021"
+                />
+                <div class="position-absolute bottom-0 start-0">
+                  <h5
+                    class="card-title bg-info small text-dark fw-bold p-1 mb-0"
+                  >
+                    TRAVEL
+                  </h5>
+                </div>
+              </div>
+            </a>
+            <div class="card-body p-0">
+              <h5 class="card-title">
+                <a href="#" class="h6">
+                  Where We Are Dreaming of Traveling in 2021
+                </a>
+              </h5>
+            </div>
+          </div>
+
+          <div class="card border-0 col-md-4">
+            <a href="#">
+              <div class="position-relative">
+                <img
+                  src="./assets/featured-story-1.jpg"
+                  class="card-img-top"
+                  alt="These Are the Top 100 Songs of 2020"
+                />
+                <div class="position-absolute bottom-0 start-0">
+                  <h5
+                    class="card-title bg-info small text-dark fw-bold p-1 mb-0"
+                  >
+                    MUSIC
+                  </h5>
+                </div>
+              </div>
+            </a>
+            <div class="card-body p-0">
+              <h5 class="card-title">
+                <a href="#" class="h6"> These Are the Top 100 Songs of 2020 </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Culture & Travel -->
+      <!-- Sponsored Insight 2 -->
+      <section class="sponsored-insights-rankings-2">
+        <div class="card border-0 my-5">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/sponsored-insight-col-3-01.jpg"
+                class="card-img-top d-md-none d-lg-inline"
+                alt="Hungary: From Manufacturing Hub to Innovation and R&amp;D; Center"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-primary fw-bold p-2 mb-0">
+                  SPONSORED INSIGHT
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body border">
+            <h5 class="card-title">
+              <a href="#">
+                Hungary: From Manufacturing Hub to Innovation and R&amp;D;
+                Center
+              </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              With its pro-business agenda and open-border policy for investors,
+              the Central European nation is hoping to bounce back from the
+              COVID-19 crisis, while making greater strides toward innovation,
+              research and development.
+            </h6>
+          </div>
+        </div>
+
+        <form class="card p-4 my-3 signup-bg my-5">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label row">
+              <i class="fas fa-envelope col-1 mt-1 h5 text-danger"></i>
+              <span class="col-10">
+                Start your day with our top 5 articles
+              </span>
+            </label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              placeholder="Email address"
+            />
+          </div>
+          <button type="submit" class="btn bg-red text-white py-0">
+            FREE SIGN UP <i class="fas fa-chevron-right"></i>
+          </button>
+        </form>
+
+        <div class="card border-0 my-5">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/sponsored-insight-col-3-02.jpg"
+                class="card-img-top d-md-none d-lg-inline"
+                alt="Panama - Central America's Leading Investment Destination"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-primary fw-bold p-2 mb-0">
+                  SPONSORED INSIGHT
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body border">
+            <h5 class="card-title">
+              <a href="#">
+                Panama - Central America's Leading Investment Destination
+              </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Panama is expected to rebound strongly in 2021, with growth
+              forecasted between 4% and 7%.
+            </h6>
+          </div>
+        </div>
+
+        <div class="card border-0 my-5">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/sponsored-insight-col-3-03.jpg"
+                class="card-img-top d-md-none d-lg-inline"
+                alt="Why are Private Schools the Best Option for Your Child’s Future?"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-primary fw-bold p-2 mb-0">
+                  SPONSORED INSIGHT
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body border">
+            <h5 class="card-title">
+              <a href="#">
+                Why are Private Schools the Best Option for Your Child’s Future?
+              </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              If academic results, average class size, teacher proficiency,
+              pupil diversity and religious orthodoxy of your child’s school are
+              things that are important to you, you should be looking at a
+              private school.
+            </h6>
+          </div>
+        </div>
+
+        <div class="card border-0 my-5">
+          <a href="#">
+            <div class="position-relative">
+              <img
+                src="./assets/sponsored-insight-col-3-04.png"
+                class="card-img-top d-md-none d-lg-inline"
+                alt="America's Best Nursing Homes 2021"
+              />
+              <div class="position-absolute bottom-0 start-0">
+                <h5 class="card-title bg-light text-primary fw-bold p-2 mb-0">
+                  RANKINGS
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="card-body border">
+            <h5 class="card-title">
+              <a href="#"> America's Best Nursing Homes 2021 </a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              In partnership with Statista, we established a ranking providing
+              information and insights to help you during this challenging time.
+            </h6>
+          </div>
+        </div>
+      </section>
+      <!-- Sponsored Insight 2 -->
+    </main>
+    <!-- Main Content -->
+
+    <!-- Milestone 3  -->
+    <section class="in-the-magazine">
+      <div class="d-flex justify-content-center align-items-center mt-5 mb-3">
+        <img
+          class="img-fluid me-3"
+          src="./assets/letter-n.png"
+          alt="News Week Icon"
+          width="29"
+          height="28"
+        />
+        <h2 class="primary-text p-0 m-0 fs-4">IN THE MAGAZINE</h2>
+      </div>
+      <div class="container border-top">
+        <div class="row pt-3">
+          <div class="col-12 col-md-3">
+            <div class="card border-0">
+              <a href="#">
+                <div class="position-relative">
+                  <img
+                    src="assets/in-the-magazine-1.jpg"
+                    class="card-img-top"
+                    alt="News Week Magazine Cover"
+                  />
+                  <div class="position-absolute bottom-0 start-0">
+                    <h5
+                      class="card-title bg-light text-danger fw-bold p-2 mb-0"
+                    >
+                      January 22 ISSUE
+                    </h5>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body p-0 m-0 bg-light">
+                <button
+                  type="button"
+                  class="btn rounded-0 fw-bold color-black w-100"
+                >
+                  SEE ALL FEATURES <i class="fas fa-chevron-right small"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- CARD -->
+          <div class="col-12 col-md-3 card border-0 mt-4">
+            <img src="milestone-3/trmpford.jpg" class="card-img" alt="..." />
+            <div class="card-body p-0 mt-2">
+              <button
+                type="button"
+                class="bg-red btn text-white fw-bold rounded-0"
+              >
+                COVER
+              </button>
+              <button type="button" class="btn text-red fw-bold rounded-0">
+                NEWS
+              </button>
+              <h5 class="mt-2">
+                <a href="#">
+                  FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way
+                </a>
+              </h5>
+            </div>
+          </div>
+          <!-- CARD -->
+          <!-- CARD -->
+          <div class="col-12 col-md-3 card border-0 mt-4">
+            <img
+              src="milestone-3/trump-protest-capitol-washington.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-body p-0 mt-2">
+              <button
+                type="button"
+                class="bg-red btn text-white fw-bold rounded-0"
+              >
+                COVER
+              </button>
+              <button type="button" class="btn text-red fw-bold rounded-0">
+                NEWS
+              </button>
+              <h5 class="mt-2">
+                <a href="#">
+                  FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way
+                </a>
+              </h5>
+            </div>
+          </div>
+          <!-- CARD -->
+          <!-- CARD -->
+          <div class="col-12 col-md-3 card border-0 mt-4">
+            <img
+              src="milestone-3/fe-american-coup-01-1230457776.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-body p-0 mt-2">
+              <button
+                type="button"
+                class="bg-red btn text-white fw-bold rounded-0"
+              >
+                COVER
+              </button>
+              <button type="button" class="btn text-red fw-bold rounded-0">
+                NEWS
+              </button>
+              <h5 class="mt-2">
+                <a href="#">
+                  FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way
+                </a>
+              </h5>
+            </div>
+          </div>
+          <!-- CARD -->
+        </div>
+        <div class="row">
+          <!-- CARD -->
+          <div class="col-12 col-md-3 card border-0 mt-4">
+            <img
+              src="milestone-3/libya-commander-war-funeral.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-body p-0 mt-2">
+              <button
+                type="button"
+                class="bg-red btn text-white fw-bold rounded-0"
+              >
+                COVER
+              </button>
+              <button type="button" class="btn text-red fw-bold rounded-0">
+                NEWS
+              </button>
+              <h5 class="mt-2">
+                <a href="#">
+                  FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way
+                </a>
+              </h5>
+            </div>
+          </div>
+          <!-- CARD -->
+          <!-- CARD -->
+          <div class="col-12 col-md-3 card border-0 mt-4">
+            <img
+              src="milestone-3/in-the-magazine-2.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-body p-0 mt-2">
+              <button
+                type="button"
+                class="bg-red btn text-white fw-bold rounded-0"
+              >
+                COVER
+              </button>
+              <button type="button" class="btn text-red fw-bold rounded-0">
+                NEWS
+              </button>
+              <h5 class="mt-2">
+                <a href="#">
+                  FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way
+                </a>
+              </h5>
+            </div>
+          </div>
+          <!-- CARD -->
+          <!-- CARD -->
+          <div class="col-12 col-md-3 card border-0 mt-4">
+            <img
+              src="milestone-3/per-london-warrwick-01.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-body p-0 mt-2">
+              <button
+                type="button"
+                class="bg-red btn text-white fw-bold rounded-0"
+              >
+                COVER
+              </button>
+              <button type="button" class="btn text-red fw-bold rounded-0">
+                NEWS
+              </button>
+              <h5 class="mt-2">
+                <a href="#">
+                  FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way
+                </a>
+              </h5>
+            </div>
+          </div>
+          <!-- CARD -->
+          <!-- CARD -->
+          <div class="col-12 col-md-3 card border-0 mt-4">
+            <img src="milestone-3/cul-rhye-01.jpg" class="card-img" alt="..." />
+            <div class="card-body p-0 mt-2">
+              <button
+                type="button"
+                class="bg-red btn text-white fw-bold rounded-0"
+              >
+                COVER
+              </button>
+              <button type="button" class="btn text-red fw-bold rounded-0">
+                NEWS
+              </button>
+              <h5 class="mt-2">
+                <a href="#">
+                  FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way
+                </a>
+              </h5>
+            </div>
+          </div>
+          <!-- CARD -->
+        </div>
+      </div>
+    </section>
+
+    <section class="editor-picks">
+      <div class="d-flex justify-content-center align-items-center mt-5 mb-3">
+        <img
+          class="img-fluid me-3"
+          src="./assets/letter-n.png"
+          alt="News Week Icon"
+          width="29"
+          height="28"
+        />
+        <h2 class="primary-text p-0 m-0 fs-4">EDITOR'S PICK</h2>
+      </div>
+      <div class="container border-top">
+        <div class="row pt-3">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0">
+              <a href="#">
+                <div class="position-relative">
+                  <img
+                    src="milestone-3/us-president-donald-trump.jpg"
+                    class="card-img-top"
+                    alt="News Week Magazine Cover"
+                  />
+                  <div class="position-absolute bottom-0 start-0">
+                    <h5
+                      class="card-title bg-light text-danger fw-bold p-2 mb-0"
+                    >
+                      World
+                    </h5>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body p-0 m-0">
+                <h5>
+                  <a href="#"
+                    >Israel Security Officials Reveal Top Threats Faced on Four
+                    Fronts This Year</a
+                  >
+                </h5>
+                <p>
+                  Newsweek spoke exclusively with four Israeli security
+                  officials charged with frontiers facing Syria, Lebanon, Gaza
+                  and the southern borders with Egypt and Jordan, revealing
+                  their primary security concerns for 2021.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0">
+              <a href="#">
+                <div class="position-relative">
+                  <img
+                    src="milestone-3/queue-covid19-antibody-tests-california.jpg"
+                    class="card-img-top"
+                    alt="News Week Magazine Cover"
+                  />
+                  <div class="position-absolute bottom-0 start-0">
+                    <h5
+                      class="card-title bg-light text-danger fw-bold p-2 mb-0"
+                    >
+                      World
+                    </h5>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body p-0 m-0">
+                <h5>
+                  <a href="#"
+                    >Israel Security Officials Reveal Top Threats Faced on Four
+                    Fronts This Year</a
+                  >
+                </h5>
+                <p>
+                  Newsweek spoke exclusively with four Israeli security
+                  officials charged with frontiers facing Syria, Lebanon, Gaza
+                  and the southern borders with Egypt and Jordan, revealing
+                  their primary security concerns for 2021.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0">
+              <a href="#">
+                <div class="position-relative">
+                  <img
+                    src="assets/picks-1.jpg"
+                    class="card-img-top"
+                    alt="News Week Magazine Cover"
+                  />
+                  <div class="position-absolute bottom-0 start-0">
+                    <h5
+                      class="card-title bg-light text-danger fw-bold p-2 mb-0"
+                    >
+                      World
+                    </h5>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body p-0 m-0">
+                <h5>
+                  <a href="#"
+                    >Israel Security Officials Reveal Top Threats Faced on Four
+                    Fronts This Year</a
+                  >
+                </h5>
+                <p>
+                  Newsweek spoke exclusively with four Israeli security
+                  officials charged with frontiers facing Syria, Lebanon, Gaza
+                  and the southern borders with Egypt and Jordan, revealing
+                  their primary security concerns for 2021.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0">
+              <a href="#">
+                <div class="position-relative">
+                  <img
+                    src="assets/picks-1.jpg"
+                    class="card-img-top"
+                    alt="News Week Magazine Cover"
+                  />
+                  <div class="position-absolute bottom-0 start-0">
+                    <h5
+                      class="card-title bg-light text-danger fw-bold p-2 mb-0"
+                    >
+                      World
+                    </h5>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body p-0 m-0">
+                <h5>
+                  <a href="#"
+                    >Israel Security Officials Reveal Top Threats Faced on Four
+                    Fronts This Year</a
+                  >
+                </h5>
+                <p>
+                  Newsweek spoke exclusively with four Israeli security
+                  officials charged with frontiers facing Syria, Lebanon, Gaza
+                  and the southern borders with Egypt and Jordan, revealing
+                  their primary security concerns for 2021.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0">
+              <a href="#">
+                <div class="position-relative">
+                  <img
+                    src="assets/picks-1.jpg"
+                    class="card-img-top"
+                    alt="News Week Magazine Cover"
+                  />
+                  <div class="position-absolute bottom-0 start-0">
+                    <h5
+                      class="card-title bg-light text-danger fw-bold p-2 mb-0"
+                    >
+                      World
+                    </h5>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body p-0 m-0">
+                <h5>
+                  <a href="#"
+                    >Israel Security Officials Reveal Top Threats Faced on Four
+                    Fronts This Year</a
+                  >
+                </h5>
+                <p>
+                  Newsweek spoke exclusively with four Israeli security
+                  officials charged with frontiers facing Syria, Lebanon, Gaza
+                  and the southern borders with Egypt and Jordan, revealing
+                  their primary security concerns for 2021.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0">
+              <a href="#">
+                <div class="position-relative">
+                  <img
+                    src="assets/picks-1.jpg"
+                    class="card-img-top"
+                    alt="News Week Magazine Cover"
+                  />
+                  <div class="position-absolute bottom-0 start-0">
+                    <h5
+                      class="card-title bg-light text-danger fw-bold p-2 mb-0"
+                    >
+                      World
+                    </h5>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body p-0 m-0">
+                <h5>
+                  <a href="#"
+                    >Israel Security Officials Reveal Top Threats Faced on Four
+                    Fronts This Year</a
+                  >
+                </h5>
+                <p>
+                  Newsweek spoke exclusively with four Israeli security
+                  officials charged with frontiers facing Syria, Lebanon, Gaza
+                  and the southern borders with Egypt and Jordan, revealing
+                  their primary security concerns for 2021.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0">
+              <a href="#">
+                <div class="position-relative">
+                  <img
+                    src="assets/picks-1.jpg"
+                    class="card-img-top"
+                    alt="News Week Magazine Cover"
+                  />
+                  <div class="position-absolute bottom-0 start-0">
+                    <h5
+                      class="card-title bg-light text-danger fw-bold p-2 mb-0"
+                    >
+                      World
+                    </h5>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body p-0 m-0">
+                <h5>
+                  <a href="#"
+                    >Israel Security Officials Reveal Top Threats Faced on Four
+                    Fronts This Year</a
+                  >
+                </h5>
+                <p>
+                  Newsweek spoke exclusively with four Israeli security
+                  officials charged with frontiers facing Syria, Lebanon, Gaza
+                  and the southern borders with Egypt and Jordan, revealing
+                  their primary security concerns for 2021.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card border-0">
+              <a href="#">
+                <div class="position-relative">
+                  <img
+                    src="assets/picks-1.jpg"
+                    class="card-img-top"
+                    alt="News Week Magazine Cover"
+                  />
+                  <div class="position-absolute bottom-0 start-0">
+                    <h5
+                      class="card-title bg-light text-danger fw-bold p-2 mb-0"
+                    >
+                      World
+                    </h5>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body p-0 m-0">
+                <h5>
+                  <a href="#"
+                    >Israel Security Officials Reveal Top Threats Faced on Four
+                    Fronts This Year</a
+                  >
+                </h5>
+                <p>
+                  Newsweek spoke exclusively with four Israeli security
+                  officials charged with frontiers facing Syria, Lebanon, Gaza
+                  and the southern borders with Egypt and Jordan, revealing
+                  their primary security concerns for 2021.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="us container">
+      <h2 class="h2 text-danger">U.S.</h2>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card rounded-0 border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex flex-column">
+          <article class="border-0 border-bottom">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 border-bottom py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="world container">
+      <h2 class="h2 text-danger">World</h2>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card rounded-0 border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex flex-column">
+          <article class="border-0 border-bottom">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 border-bottom py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="business container">
+      <h2 class="h2 text-danger">Business</h2>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card rounded-0 border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex flex-column">
+          <article class="border-0 border-bottom">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 border-bottom py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech-science container">
+      <h2 class="h2 text-danger">Tech & Science</h2>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card rounded-0 border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex flex-column">
+          <article class="border-0 border-bottom">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 border-bottom py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="culture container">
+      <h2 class="h2 text-danger">Culture</h2>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card rounded-0 border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex flex-column">
+          <article class="border-0 border-bottom">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 border-bottom py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sports container">
+      <h2 class="h2 text-danger">Sports</h2>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card rounded-0 border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex flex-column">
+          <article class="border-0 border-bottom">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 border-bottom py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="expert-forum container">
+      <h2 class="h2 text-danger">Newsweek Expert Forum</h2>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card rounded-0 border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-0">
+            <a href="#">
+              <div>
+                <img
+                  src="assets/picks-1.jpg"
+                  class="card-img-top"
+                  alt="News Week Magazine Cover"
+                />
+              </div>
+            </a>
+            <div class="card-body p-0 m-0">
+              <h5>
+                <a href="#"
+                  >Israel Security Officials Reveal Top Threats Faced on Four
+                  Fronts This Year</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex flex-column">
+          <article class="border-0 border-bottom">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 border-bottom py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+
+          <article class="border-0 py-3">
+            <div class="d-inline-flex">
+              <a href="#">
+                <img
+                  class="us-section-img"
+                  src="./assets/more-stories-1.jpg"
+                  alt="Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border"
+                />
+              </a>
+              <h5 class="d-inline ms-2 h3">
+                <a href="#" class="word small">
+                  Biden's Biggest Challenge? 67,000 Migrants Stranded at
+                  U.S.-Mexico Border
+                </a>
+              </h5>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="subscribe-newsletter container">
+      <div class="row row-cols-lg-2">
+        <div class="subscribe col-12 col-lg-8">
+          <h2 class="h4 text-uppercase text-danger">Subscribe</h2>
+          <div class="row row-cols-md-2">
+            <div class="col-12 col-md-5 position-relative two-editions">
+              <img
+                src="assets/in-the-magazine-1.jpg"
+                class="w-75 position-absolute top-0 start-0"
+                alt="News Week Magazine Cover"
+              />
+              <img
+                src="assets/in-the-magazine-1.jpg"
+                class="w-75 position-absolute bottom-0 end-0"
+                alt="News Week Magazine Cover"
+              />
+              <div
+                class="position-absolute bottom-0 start-50 translate-middle-x d-md-none"
+              >
+                <h5
+                  class="card-title text-center text-nowrap bg-none color-black fw-bold p-2 mb-0 cool-heading"
+                >
+                  In-depth Stories You Don't See Elsewhere
+                </h5>
+                <h5
+                  class="card-title text-center text-nowrap bg-none color-black fw-bold p-2 mb-0 cool-heading"
+                >
+                  About Topics You Want to Read!
+                </h5>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-7 card-body p-3 m-0 bg-light d-flex flex-column align-items-center d-md-block"
+            >
+              <div class="d-none d-md-block">
+                <h5 class="card-title h2 bg-none color-black fw-bold p-2 mb-0">
+                  In-depth Stories You Don't See Elsewhere <br />
+                  About Topics You Want to Read!
+                </h5>
+              </div>
+              <h6
+                class="card-title text-center text-md-start secondary-text small p-2 mt-3 color-black"
+              >
+                All Access + Weekly Delivery. <br />
+                Choose A Membership That's Perfect for You!
+              </h6>
+              <button
+                type="button"
+                class="btn rounded-0 btn-danger rounded-1 fw-bold my-3"
+              >
+                SUBSCRIBE <i class="fas fa-chevron-right small"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="newsletter col-12 col-lg-4">
+          <h2 class="h4 text-uppercase text-danger">Newsletter</h2>
+          <div class="row">
+            <div class="col-12 col-md-6 p-0 subscribe-img"></div>
+            <div class="col-12 col-md-6 card-body p-3 m-0 bg-light">
+              <h5
+                class="primary-text text-center text-lg-start text-uppercase card-title fs-3 bg-none color-black fw-bold p-2 mb-0"
+              >
+                The Starting 5
+              </h5>
+              <h6
+                class="card-title text-center text-md-start secondary-text small p-2 mt-3 color-black"
+              >
+                See why nearly a quarter of a million subscribers begin their
+                day with the Starting 5.
+              </h6>
+              <div class="input-group row rounded-1 d-lg-none">
+                <input
+                  type="email"
+                  class="col-6 border-1"
+                  id="reader-email1"
+                  placeholder="Email address"
+                  aria-label="Enter your email address"
+                />
+                <button class="btn small btn-danger col-6" type="button">
+                  FREE SIGN UP <i class="fas fa-chevron-right small"></i>
+                </button>
+              </div>
+              <div class="input-group row rounded-1 d-none d-lg-block">
+                <input
+                  type="email"
+                  class="col-12 border-1"
+                  id="reader-email2"
+                  placeholder="Email address"
+                  aria-label="Enter your email address"
+                />
+                <button class="btn small btn-danger col-12" type="button">
+                  FREE SIGN UP <i class="fas fa-chevron-right small"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section. -->
+    <!-- Mileston 3  -->
+
+    <footer class="container mb-5">
+      <nav class="row border-bottom pb-1">
+        <div class="col-sm-12 col-lg-8 d-lg-flex flex-row align-items-center">
+          <a href="#" class="me-3">
+            <svg
+              version="1.1"
+              width="236"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 396 60"
+              xml:space="preserve"
+              fill="#f72210"
+            >
+              <g>
+                <path
+                  class="st0"
+                  d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <p class="mb-0 copyright align-self-end mb-1 pt-2">
+            &copy; 2021 NEWSWEEK DIGITAL LLC
+          </p>
+        </div>
+        <div class="col-sm-12 col-lg-4 d-lg-flex justify-content-end">
+          <ul class="list-inline social-media mb-0">
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-tumblr"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav>
+        <!-- First Link row -->
+        <ul class="list-inline m-0 footer-links">
+          <li class="list-inline-item"><strong>Editions:</strong></li>
+          <li class="list-inline-item"><a href="#">U.S. Edition</a></li>
+          <li class="list-inline-item"><a href="#">日本</a></li>
+          <li class="list-inline-item"><a href="#">Pakistan</a></li>
+          <li class="list-inline-item"><a href="#">Polska</a></li>
+          <li class="list-inline-item"><a href="#">România</a></li>
+        </ul>
+        <ul class="list-inline m-0 footer-links">
+          <li class="list-inline-item"><a href="#">About Us</a></li>
+          <li class="list-inline-item"><a href="#">Corrections</a></li>
+          <li class="list-inline-item"><a href="#">Contact Us</a></li>
+          <li class="list-inline-item"><a href="#">Editorial</a></li>
+          <li class="list-inline-item"><a href="#">Guidelines</a></li>
+          <li class="list-inline-item"><a href="#">Advertise</a></li>
+          <li class="list-inline-item"><a href="#">Copyright</a></li>
+          <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+          <li class="list-inline-item"><a href="#">Cookie Policy</a></li>
+          <li class="list-inline-item"><a href="#">Terms of Sale</a></li>
+          <li class="list-inline-item"><a href="#">Archive</a></li>
+          <li class="list-inline-item"><a href="#">Announcements</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
