@@ -43,6 +43,19 @@ h5 a {
   font-size: 1.5rem;
 }
 
+.trending li {
+  text-transform: uppercase;
+}
+
+.change-color a {
+  transition: 0.5s;
+}
+
+.trending li a {
+  font-size: 18px;
+  color: #807f84;
+}
+
 // animations exercise start
 
 @keyframes rotate-logo {
@@ -59,15 +72,6 @@ h5 a {
   animation: rotate-logo 1.5s ease-in-out 0s 1;
 }
 
-.change-color a {
-  transition: 0.5s;
-
-  &:hover {
-    color: red;
-    font-size: 1.25em;
-  }
-}
-
 .hover-enlarge,
 img {
   transition: 0.5s;
@@ -78,17 +82,6 @@ img {
 }
 
 // animations exercise end
-
-.trending {
-  li {
-    text-transform: uppercase;
-
-    a {
-      font-size: 18px;
-      color: #807f84;
-    }
-  }
-}
 
 .social-media {
   li {
@@ -112,6 +105,11 @@ img {
       color: #666;
     }
   }
+}
+
+.change-color a:hover {
+  color: red;
+  font-size: 1.25em;
 }
 
 .categories li {

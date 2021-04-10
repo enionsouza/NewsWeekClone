@@ -17,6 +17,12 @@ a { text-decoration: none; color: black; }
 
 h5 a { font-size: 1.5rem; }
 
+.trending li { text-transform: uppercase; }
+
+.change-color a { -webkit-transition: 0.5s; transition: 0.5s; }
+
+.trending li a { font-size: 18px; color: #807f84; }
+
 @-webkit-keyframes rotate-logo { from { color: white; }
   100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
 
@@ -25,17 +31,9 @@ h5 a { font-size: 1.5rem; }
 
 .spin-logo { -webkit-animation: rotate-logo 1.5s ease-in-out 0s 1; animation: rotate-logo 1.5s ease-in-out 0s 1; }
 
-.change-color a { -webkit-transition: 0.5s; transition: 0.5s; }
-
-.change-color a:hover { color: red; font-size: 1.25em; }
-
 .hover-enlarge, img { -webkit-transition: 0.5s; transition: 0.5s; }
 
 .hover-enlarge:hover, img:hover { -webkit-transform: scale(1.25); transform: scale(1.25); }
-
-.trending li { text-transform: uppercase; }
-
-.trending li a { font-size: 18px; color: #807f84; }
 
 .social-media li a { font-size: 26px; }
 
@@ -44,6 +42,8 @@ h5 a { font-size: 1.5rem; }
 .footer-links li { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
 
 .footer-links li a { color: #666; }
+
+.change-color a:hover { color: red; font-size: 1.25em; }
 
 .categories li { border-right: 1px solid #d9d9d9; border-left: 1px solid #fff; padding: 0 1%; }
 
