@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+.primary-text { font-family: 'Roboto Condensed', sans-serif; font-size: 1rem; }
+
+.secondary-text { font-family: Arial, Helvetica, sans-serif; }
+
+.bg-red { background-color: #f72210; }
+
+.bg-yellow { background-color: #ffe400; }
+
+.hover-white:hover { color: white !important; }
+
+a { text-decoration: none; color: black; }
+
+.header-icon { color: #fdc8c3; font-size: 0.9rem; }
+
+.categories li { border-right: 1px solid #d9d9d9; border-left: 1px solid #ffffff; padding: 0 1%; }
+
+.categories li:last-child { border-right: none; color: #757575 !important; }
+
+.categories li:last-child a { color: #757575 !important; }
+
+.categories li:nth-last-child(2) { border-right: none; }
+
+.trending li { text-transform: uppercase; font-size: 18px !important; }
+
+.trending li a { color: #807f84; }
+
+.space { height: 150vh; }
+
+.social-media li a { font-size: 26px; color: #5f5f5f !important; }
+
+.social-media li a i { padding: 4px; }
+
+.copyright { font-size: 12px; }
+
+.footer-links li { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
+
+.footer-links li a { color: #666666; }
+
+@media (min-width: 992px) { .nw-header-icon { -webkit-transform: scale(3); transform: scale(3); } }
+/*# sourceMappingURL=style.css.map */
